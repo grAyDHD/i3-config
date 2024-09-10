@@ -1,0 +1,18 @@
+# i3 config file
+
+bindsym $mod+Shift+i exec ~/Code/ShellScripts/intern_workspace.sh
+
+bindsym $mod+Shift+s exec ~/Code/ShellScripts/save_all.sh
+bindsym $mod+Shift+q exec ~/Code/ShellScripts/close_all.sh
+
+# Keybinding to increase Alacritty font size
+bindsym $mod+z exec ~/Code/ShellScripts/font_size.sh increase
+
+# Keybinding to decrease Alacritty font size
+bindsym $mod+b exec ~/Code/ShellScripts/font_size.sh decrease
+
+# Keybinding to increase Alacritty font size
+bindsym $mod+Mod1+period exec ~/Code/ShellScripts/font_size.sh increase
+
+# Keybinding to decrease Alacritty font size
+bindsym $mod+Mod1+comma exec ~/Code/ShellScripts/font_size.sh decrease

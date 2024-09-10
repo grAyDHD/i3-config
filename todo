@@ -1,0 +1,21 @@
+# if you want to kill all windows which have the class Firefox, use:
+bindsym $mod+x [class="Firefox"] kill
+
+# same thing, but case-insensitive
+bindsym $mod+x [class="(?i)firefox"] kill
+
+# kill only the About dialog from Firefox
+bindsym $mod+x [class="Firefox" window_role="About"] kill
+
+# kill all windows except for Firefox and Gnome Terminal.
+# case-insensitive and uses negative lookaheads, supported by PCRE
+bindsym $mod+x [class="^(?i)(?!firefox)(?!gnome-terminal).*"] kill
+
+# enable floating mode and move container to workspace 4
+for_window [class="^evil-app$"] floating enable, move container to workspace 4
+
+# enable window icons for all windows with extra horizontal padding of 1px
+for_window [all] title_window_icon padding 1px
+
+# move all floating windows to the scratchpad
+bindsym $mod+x [floating] move scratchpad

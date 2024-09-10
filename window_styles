@@ -1,0 +1,9 @@
+gaps inner 4
+gaps outer 4
+
+client.focused           #f92672 #f92672 #f8f8f2 #f92672 #f92672
+client.focused_inactive  #272822 #5f676a #f8f8f2 #484e50 #f92672 
+client.unfocused         #272822 #272822 #f8f8f2 #292d2e #272822
+client.urgent            #272822 #0c0c0c #f8f8f2 #000000 #0c0c0c
+
+client.background #f8f8f2

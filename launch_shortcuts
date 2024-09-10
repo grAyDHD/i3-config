@@ -1,0 +1,15 @@
+# Browsers
+bindsym $mod+f exec firefox
+bindsym $mod+Shift+f exec firefox --incognito
+bindsym $mod+c exec google-chrome-stable
+bindsym $mod+Shift+c exec google-chrome-stable --incognito
+
+# start a terminal
+bindsym $mod+Return exec alacritty
+
+# start dmenu (a program launcher)
+bindsym $mod+d exec --no-startup-id dmenu_run
+
+# start tuxguitar
+bindsym $mod+t exec tuxguitar
+

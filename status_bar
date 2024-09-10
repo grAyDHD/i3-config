@@ -1,0 +1,28 @@
+bar {
+    status_command i3status
+
+    colors {
+        background #000000
+        statusline #ffffff
+        separator #666666
+
+        focused_workspace  #4c7899 #285577 #ffffff
+        active_workspace   #333333 #5f676a #ffffff
+        inactive_workspace #333333 #222222 #888888
+        urgent_workspace   #2f343a #900000 #ffffff
+        binding_mode       #2f343a #900000 #ffffff
+    }
+
+    # 2px left/right and 2px top/bottom padding
+    padding 2px
+
+    # 2px top/bottom padding, no left/right padding
+    padding 2px 0
+
+    # 2px top padding, no left/right padding, 4px bottom padding
+    padding 2px 0 4px
+
+    # 2px top padding, 6px right padding, 4px bottom padding, 1px left padding
+    padding 2px 6px 4px 1px
+}
+
